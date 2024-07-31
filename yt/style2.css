@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #fff;
+    align-items: center;
+}
+.header {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #cb202d; /* Accent color */
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #cb202d; /* Accent color on hover */
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cb202d; /* Accent color */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #a91e26; /* Darker shade on hover */
+}
+
+.profile {
+    font-size: 1.5em;
+}
+
+.profile-icon {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+    margin-top: 6%;
+}
+
+.video-player {
+    margin-bottom: 20px;
+}
+
+.video-info {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 5px;
+   height: 20%;
+   width: 65%;
+}
+
+.video-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    background-color: #cc0000;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: #e60000;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+}
+
+.channel-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comments-section {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+
+.comment img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment-text {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+    
+}
+
+.sidebar {
+    flex: 1;
+    display: inline-block;
+}
+
+.related-video {
+    
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.related-video img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.related-video .video-details {
+    max-width: 200px;
+}
+
+.related-video .video-details h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.related-video .video-details p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+a {
+    text-decoration: none; /* Removes the underline from the link */
+    color: inherit; /* Inherits the color from the parent element */
+}
+
+a:hover .video-card {
+    /* Optional: Add some hover effect for better UX */
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+.video-card {
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.video-card img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.video-info h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.video-info p {
+    font-size: 14px;
+    color: #aaa;
+}
